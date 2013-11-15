@@ -1,22 +1,17 @@
-# [A3M (Account Authentication & Authorization)] (https://github.com/donjakobo/A3M/)
-_2/25/2013 - Currently some code is semi-stable, please fork and help squash bugs/update views_
+# A3M  
+### 
 
-_6/25/2013 - Started working on integrating the main code with admin panel and the development version of CodeIgniter 3_
+A3M (Account Authentication & Authorization) is a CodeIgniter 3.x package that leverages bleeding edge web technologies 
+like OpenID and OAuth to create a user-friendly user experience. It gives you the CRUD to get working right away 
+without too much fuss and tinkering! Designed for building webapps from scratch without all that tiresome 
+login / logout / admin stuff thats always required.
 
-A CodeIgniter 3.x package that leverages bleeding edge web technologies like OpenID and OAuth to create a user-friendly user experience. It gives you the CRUD to get working right away without too much fuss! A3M is a full package meant for building websites from scratch without all that tiresome login / logout / admin stuff thats always required.
+## Original Authors
 
-## Authors
-
-**Jakub**   			
-+ [@kubanishku](https://twitter.com/kubanishku/) on Twitter    
-+ [@donjakobo](https://github.com/donjakobo) on GitHub   
-	
-**PengKong**   
-+ [@pengkong](https://github.com/pengkong) on Github   
-        
+**Jakub** [@kubanishku](https://twitter.com/kubanishku/)  
+**PengKong** [@pengkong](https://github.com/pengkong)
+		
 ## Key Features & Design Goals
-
-See our **[app task board on Trello](https://trello.com/board/a3m/512c08b874b855f26200e690)** to get a glimps of to-do items
 
 * Native Sign Up, Sign In with 'Remember me' and Sign Out  
 * Native account Forgot Password and Reset Password  
@@ -54,7 +49,10 @@ See our **[app task board on Trello](https://trello.com/board/a3m/512c08b874b855
 * GMP or Bcmatch
 
 ## Installation Instructions
+Check out our wiki: https://github.com/donjakobo/A3M/wiki/Installation-Instructions
+for help on getting started.
 
+<<<<<<< HEAD
 + Download the latest version of [A3M](https://github.com/donjakobo/A3M/)
 + Extract to a folder accessible on your webserver (`/` or something like `/a3m/` )  
 + Create a database by importing `a3m_database.sql` script found it root folder of package  
@@ -200,3 +198,10 @@ This method will check if the user is admin.
 #### is_role()
 
 You pass in the name of the role and the function will determine if the user has that role.
+=======
+## Help and Support  
+* Found a bug? Try forking and fixing it. 
+* Open an issue if you want to discuss/highlight it
+* Go to StackOverflow under the tag `codeigniter-a3m` http://stackoverflow.com/questions/tagged/codeigniter-a3m if you have implementation issues (installation problems, etc;)
+
+>>>>>>> a71ba9827ab46993ab89fdd65aac30c359922290
